@@ -78,8 +78,8 @@ main {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* padding-top: 6rem; */
+  /* justify-content: center; */
+  padding-top: 50%;
   padding-left: 3rem;
   padding-right: 3rem;
   /* position: relative; */
@@ -94,8 +94,17 @@ main article p {
   margin-bottom: 5rem;
 }
 
-main article section {
-  float: left;
+main article section:nth-of-type(1) {
+  position: relative;
+  margin-bottom: 5rem;
+  /* float: left; */
+}
+
+main article section:nth-of-type(2) {
+  position: absolute;
+  right: 3rem;
+  margin-bottom: 2rem;
+  /* float: right; */
 }
 
 main article section .project-header {
@@ -108,15 +117,27 @@ main article section .projectName {
   color: #F4B559;
 }
 
-main article section ul {
+main article section .projectUl-1 {
   width: 28rem;
   background: #47618e;
   display: flex;
   flex-direction: column;
   padding-bottom: 1.2rem;
   position: absolute;
-  top: 46%;
+  top: 32%;
   left: 20rem;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+main article section .projectUl-2 {
+  width: 28rem;
+  background: #47618e;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.2rem;
+  position: absolute;
+  top: 40%;
+  right: 20rem;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 } 
 
@@ -136,10 +157,18 @@ main article section ul li {
   color: #64ffda;
 }
 
-.linkIcon {
+.linkIcon-1 {
   position: absolute;
-  top: 54%;
-  right: 25%;
+  top: 92%;
+  right: 18%;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.linkIcon-2 {
+  position: absolute;
+  bottom: 1%;
+  left: -115%;
   font-size: 2rem;
   gap: 1rem;
 }
