@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100vh;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: white;
+  background: linear-gradient(138deg, rgba(4,2,3,1) 0%, rgba(67,35,73,1) 100%);
+  font-size: 1.8rem;
+  font-weight: bold;
+  position: fixed;
+}
+
+header nav {
+  padding: 1rem 0.75rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul .item {
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+}
+
+ul .item:hover {
+  background: purple;
+  border: 1px solid #F4B559;
+  border-radius: 4%;
+}
+
+ul .resume-button {
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+}
+
+ul .resume-button a {
+  color: #69D8D0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: transparent;
+  border: 1px solid #69D8D0;
+  border-radius: 4%;
+  padding: 1rem 0.75rem;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 1.4rem;
+}
+
+ul .resume-button a:hover {
+  background: rgba(105, 216, 208, 0.75);
+  color: #37597F;
+}
+
+main {
+  width: 100%;
+  height: 92%;
+  background: linear-gradient(180deg, rgba(10,25,47,1) 0%, rgba(34,59,97,1) 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 6rem; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* position: relative; */
+}
+
+main article p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+  color: #ccd6f6;
+  margin-bottom: 5rem;
+}
+
+main article section {
+  float: left;
+}
+
+main article section .project-header {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main article section .projectName {
+  color: #F4B559;
+}
+
+main article section ul {
+  width: 28rem;
+  background: #47618e;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.2rem;
+  position: absolute;
+  top: 46%;
+  left: 20rem;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+} 
+
+main img {
+  width: 350px;
+  height: 250px;
+}
+
+main article section ul .project-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+main article section ul li {
+  list-style-type: disc;
+  margin-left: 2rem;
+  color: #64ffda;
+}
+
+.linkIcon {
+  position: absolute;
+  top: 54%;
+  right: 25%;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+footer {
+  background: #351B38;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer h2 {
+  margin-bottom: 0.8rem;
+}
+
+footer a {
+  transition: color 200ms ease-in;
+}
+
+footer a:hover {
+  color: salmon;
+}
+
+footer section {
+  font-size: 2.5rem;
+  margin-top: 0.8rem;
+}
+
+footer section i {
+  transition: transform 250ms ease-in;
+}
+
+footer section i:hover {
+  transform: scale(1.2);
+}
