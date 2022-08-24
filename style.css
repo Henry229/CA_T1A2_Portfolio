@@ -188,11 +188,7 @@ footer section i:hover {
   main {
     padding-top: 30rem;
   }
-
-  main article {
-    font-size: 0.2rem;
-  }
-  
+ 
   main section {
     display: flex;
     flex-direction: column;

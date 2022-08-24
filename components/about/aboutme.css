@@ -102,7 +102,7 @@ main section {
 }
 
 main section ul {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-around;
   /* margin-left: 7rem; */
@@ -194,7 +194,7 @@ footer section i:hover {
     justify-content: center;
   }
 
-  ul {
+  header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,14 +206,14 @@ footer section i:hover {
   }
 
   main article p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   main article .contents {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
-  main section {
+  main section ul {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -222,15 +222,15 @@ footer section i:hover {
     /* padding-top: 10rem; */
   }
 
-  main section article {
+  main article {
     margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
   }
 
-  main p {
+  /* main p {
     flex-wrap: wrap;
-  }
+  } */
 
   footer {
     padding-bottom: 3rem;

@@ -10,9 +10,6 @@ body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: linear-gradient(180deg, rgba(10,25,47,1) 0%, rgba(34,59,97,1) 100%);
   height: 300vh;
-  /* max-width: 1200px; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 a {
@@ -81,11 +78,9 @@ main {
   color: white;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   padding-top: 8rem;
   padding-left: 3rem;
   padding-right: 3rem;
-  /* position: relative; */
 }
 
 main p {
@@ -95,9 +90,6 @@ main p {
   text-align: center;
   color: #ccd6f6;
   margin-bottom: 5rem;
-  /* flex-wrap: wrap;
-  word-wrap: break-word;
-  word-break: break-all; */
 }
 
 main article {
@@ -110,16 +102,8 @@ main article section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: relative; */
   margin-bottom: 5rem;
-  /* text-align: center; */
 }
-
-/* main article section:nth-of-type(2) {
-  width: 100%;
-  position: relative;
-  margin-bottom: 2rem;
-} */
 
 main article section .project-header {
   font-family: 'Alumni Sans Pinstripe', sans-serif;
@@ -144,33 +128,53 @@ main article section ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 1.2rem; */
-  /* position: relative; */
-  /* top: 32%; */
-  /* left: 20rem; */
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
   padding: 2rem;
   margin-bottom: 0.5rem;
 }
 
-/* main article section .projectUl-2 {
-  width: 28rem;
-  background: #47618e;
+main .blogArticle {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 1.2rem;
-  position: relative;
-  top: 40%;
-  right: 20rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main article .blogSection {
+  width: 28rem;
+  height: 40rem;
+  background: #47618e;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 1.2rem;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-}  */
+}
 
+main article #folder {
+  width: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+  color: #64ffda;
+  padding-bottom: 1rem;
+}
 
+main article section .blogImage {
+  width: 19rem;
+  height: 17rem;
+  object-fit: cover;
+}
 
-/* main article section ul .project-title {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-} */
+main article section .blogTitle {
+  font-size: 2.5rem;
+  color: #64ffda;
+  margin-bottom: 0;
+}
+
+main article section .blogTalk {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
 
 main article section ul li {
   color: #64ffda;
@@ -183,6 +187,8 @@ main article section figure {
   font-size: 2rem;
   gap: 1rem;
 }
+
+
 
 footer {
   width: 100%;
@@ -233,7 +239,6 @@ footer section i:hover {
 
 @media screen and (max-width: 768px) {
   header {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,12 +264,6 @@ footer section i:hover {
     /* padding-top: 10rem; */
   }
 
-  /* main section article {
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
   main li {
     flex-wrap: wrap;
   }
@@ -282,8 +281,34 @@ footer section i:hover {
   main p {
     padding-bottom: 2rem;
   }
+
+  main img {
+    margin-bottom: 0.5rem;
+  }
   main article section ul {
     display: none;
-    background: yellow;
+  }
+
+  main article .blogSection {
+    width: 18rem;
+    height: 28rem;
+    padding: 0.6rem;
+  }
+
+  main article section .blogImage {
+    width: 14rem;
+    height: 12rem;
+    object-fit: cover;
+  }
+  
+  main article section .blogTitle {
+    font-size: 1.5rem;
+    color: #64ffda;
+    padding-bottom: 0;
+  }
+  
+  main article section .blogTalk {
+    font-size: 1rem;
+    font-weight: normal;
   }
 }
