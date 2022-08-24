@@ -1,19 +1,24 @@
+
+/* initalization of setting */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* body settings */
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100vh;
 }
 
+/* remove clicked mark when using A tag */
 a {
   text-decoration: none;
   color: white;
 }
 
+/* Styling Header */
 header {
   width: 100%;
   display: flex;
@@ -26,10 +31,12 @@ header {
   position: fixed;
 }
 
+/* giving Gap between items in Nav */
 header nav {
   padding: 1rem 0.75rem;
 }
 
+/* styling for right nav */
 ul {
   display: flex;
   list-style: none;
@@ -46,6 +53,7 @@ ul .item:hover {
   border-radius: 4%;
 }
 
+/*  button for getting CV */
 ul .resume-button {
   padding: 1rem 0.75rem;
   cursor: pointer;
@@ -68,6 +76,7 @@ ul .resume-button a:hover {
   color: #37597F;
 }
 
+/* styling Main */
 main {
   width: 100%;
   height: 95%;
@@ -81,6 +90,7 @@ main {
   padding-top: 6rem;
 }
 
+/* Part of introduction of myself */
 main section {
   display: flex;
   justify-content: space-evenly;
@@ -108,6 +118,7 @@ main section article:hover {
   animation-duration: 1s;
 }
 
+/*  summary of my career */
 main p {
   width: 100%;
   margin-top: 8rem;
@@ -117,6 +128,7 @@ main p {
   margin-bottom: 3rem;
 }
 
+/* put animation on greeting paragraph */
 @keyframes moving-article {
   0% {
     transform: translateX(100px)
@@ -130,6 +142,7 @@ main p {
   }
 }
 
+/* styling footer */
 footer {
   width: 100%;
   background: #351B38;
@@ -169,9 +182,10 @@ footer section i:hover {
   transform: scale(1.2);
 }
 
+/* media queries when mobile and tablet */
 @media screen and (max-width: 768px) {
+  /*  making vertical ones */
   header {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;

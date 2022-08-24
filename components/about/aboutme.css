@@ -1,20 +1,24 @@
+/* initalization of setting */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* body settings */
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 150vh;
   /* max-width: 1200px; */
 }
 
+/* remove clicked mark when using A tag */
 a {
   text-decoration: none;
   color: white;
 }
 
+/* Styling Header */
 header {
   width: 100%;
   display: flex;
@@ -27,10 +31,12 @@ header {
   position: fixed;
 }
 
+/* giving Gap between items in Nav */
 header nav {
   padding: 1rem 0.75rem;
 }
 
+/* styling for right nav */
 ul {
   display: flex;
   list-style: none;
@@ -47,6 +53,7 @@ ul .item:hover {
   border-radius: 4%;
 }
 
+/*  button for getting CV */
 ul .resume-button {
   padding: 1rem 0.75rem;
   cursor: pointer;
@@ -69,6 +76,7 @@ ul .resume-button a:hover {
   color: #37597F;
 }
 
+/* styling Main */
 main {
   width: 100%;
   height: 95%;
@@ -83,6 +91,7 @@ main {
   padding-right: 3rem;
 }
 
+/* styling main title */
 main article p {
   font-size: 3rem;
   font-weight: bold;
@@ -101,11 +110,10 @@ main section {
   margin: 4rem 0;
 }
 
+/* styling my skills  */
 main section ul {
-  /* width: 100%; */
   display: flex;
   justify-content: space-around;
-  /* margin-left: 7rem; */
   list-style: none;
 }
 
@@ -131,7 +139,6 @@ main section ul li i {
 main section ul li i:hover {
   color: #F9F871;
   transform: scale(1.1) rotate(30deg);
-  /* transform: translateX(10px) skew(30deg); */
 }
 
 main section ul li .major {
@@ -146,6 +153,7 @@ main section ul li .subject {
   margin: 0.8rem 0;
 }
 
+/* styling footer */
 footer {
   width: 100%;
   background: #351B38;
@@ -185,9 +193,10 @@ footer section i:hover {
   transform: scale(1.2);
 }
 
+/* media queries when mobile and tablet */
 @media screen and (max-width: 768px) {
+  /* making vertical alignment */
   header {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,13 +233,7 @@ footer section i:hover {
 
   main article {
     margin-top: 2rem;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
   }
-
-  /* main p {
-    flex-wrap: wrap;
-  } */
 
   footer {
     padding-bottom: 3rem;

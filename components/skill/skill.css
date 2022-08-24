@@ -1,20 +1,24 @@
+/* initalization of setting */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* setting of body */
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 150vh;
   /* max-width: 1200px; */
 }
 
+/* remove clicked mark when using A tag */
 a {
   text-decoration: none;
   color: white;
 }
 
+/* Styling Header */
 header {
   width: 100%;
   display: flex;
@@ -27,6 +31,7 @@ header {
   position: fixed;
 }
 
+/* giving Gap between items in Nav*/
 header nav {
   padding: 1rem 0.75rem;
 }
@@ -47,6 +52,7 @@ ul .item:hover {
   border-radius: 4%;
 }
 
+/* button for getting CV */
 ul .resume-button {
   padding: 1rem 0.75rem;
   cursor: pointer;
@@ -69,6 +75,7 @@ ul .resume-button a:hover {
   color: #37597F;
 }
 
+/* styling Main */
 main {
   width: 100%;
   height: 92%;
@@ -77,12 +84,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   padding-top: 8rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
+/* styling main title */
 main article p {
   font-size: 3rem;
   font-weight: bold;
@@ -91,6 +98,7 @@ main article p {
   color: #ccd6f6;
 }
 
+/* styling my skills & attributes */
 main ul {
   display: flex;
   flex-direction: column;
@@ -101,6 +109,7 @@ main ul {
   color: #8892b0;
 }
 
+/* display skill level */
 figure {
   display: grid;
   margin-top: 5rem;
@@ -146,6 +155,7 @@ figure p {
   align-items: center;
 }
 
+/* styling footer */
 footer {
   width: 100%;
   background: #351B38;
@@ -185,9 +195,10 @@ footer section i:hover {
   transform: scale(1.2);
 }
 
+/* media queries when tablet */
 @media screen and (max-width: 768px) {
+  /*  making vertical alignment */
   header {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,7 +280,9 @@ footer section i:hover {
   }
 }
 
+/* media queries when mobile */
 @media screen and (max-width: 600px) {
+  /* adjust fonts and table  */
   figure {
     display: grid;
     margin-top: 3rem;
