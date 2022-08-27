@@ -9,7 +9,7 @@
 /* body settings */
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100vh;
+  height: 150vh;
 }
 
 /* remove clicked mark when using A tag */
@@ -86,8 +86,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-top: 6rem;
+  /* justify-content: center; */
+  padding-top: 12rem;
 }
 
 /* Part of introduction of myself */
@@ -126,6 +126,9 @@ main p {
   font-size: 2.3rem;
   font-weight: bold;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* put animation on greeting paragraph */

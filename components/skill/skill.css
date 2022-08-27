@@ -110,6 +110,7 @@ main ul {
 }
 
 /* display skill level */
+/* using Grid */
 figure {
   display: grid;
   margin-top: 5rem;
