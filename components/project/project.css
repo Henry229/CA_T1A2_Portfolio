@@ -12,7 +12,9 @@
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: linear-gradient(180deg, rgba(10,25,47,1) 0%, rgba(34,59,97,1) 100%);
-  height: 300vh;
+  /* background: #351B38; */
+  max-height: 200vh;
+  height: auto;
 }
 
 /* remove clicked mark when using A tag */
@@ -172,6 +174,8 @@ main article .blogSection {
   background: #47618e;
   padding: 1.2rem;
   box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* styleing foler image */
@@ -215,8 +219,8 @@ footer {
   flex-wrap: wrap;
   word-wrap: break-word;
   word-break: break-all;
-  position: fixed;
-  bottom: 0%;
+  /* position: fixed; */
+  /* bottom: 0%; */
 }
 
 footer h2 {
@@ -304,17 +308,17 @@ footer section i:hover {
     margin-bottom: 0.5rem;
   }
   main article section ul {
-    display: none;
+    display: none;   /* hide desction */
   }
 
   main article .blogSection {
-    width: 18rem;
+    width: 14rem;
     height: 28rem;
     padding: 0.6rem;
   }
 
   main article section .blogImage {
-    width: 14rem;
+    width: 12rem;
     height: 12rem;
     object-fit: cover;
   }

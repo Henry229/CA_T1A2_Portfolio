@@ -8,8 +8,9 @@
 /* body settings */
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 150vh;
-  /* max-width: 1200px; */
+  background: #351B38;
+  max-height: 200vh;
+  height: auto;
 }
 
 /* remove clicked mark when using A tag */
@@ -165,8 +166,9 @@ footer {
   flex-wrap: wrap;
   word-wrap: break-word;
   word-break: break-all;
-  position: fixed;
-  bottom: 0%;
+  /* margin-top: 2rem; */
+  /* position: fixed; */
+  /* bottom: 0%; */
 }
 
 footer h2 {
