@@ -6,22 +6,22 @@ Portfolio URL <https://t1a2-portfolio.web.app/>
 
 ## Portfolio
 
-### Purpose{.underline}
+### Purpose
 
 Reflect the knowledge and experience learned in class and show my
 development ability, technical knowledge to prospective employer.
 
-### Functionality / Features{.underline}
+### Functionality / Features
 
 **Index.html**
 
 - **A brief introduction to me.**
 
-- **Get some icons from Font Awesome.**
+- **Get some icons from `Font Awesome`.**
 
 - **Animation effect using transform.**
 
-- **Semantic HTML elements are used.**
+- **`Semantic HTML elements` are used.**
 
 - [**https://t1a2-portfolio.web.app/index.html**](https://t1a2-portfolio.web.app/index.html)
 
@@ -29,7 +29,7 @@ development ability, technical knowledge to prospective employer.
 
 - **About my background in IT and skills I have.**
 
-- **Header/Footer components are reused.**
+- **Header/Footer components are `reused`.**
 
 - [**https://t1a2-portfolio.web.app/components/about/aboutme.html**](https://t1a2-portfolio.web.app/components/about/aboutme.html)
 
@@ -38,7 +38,7 @@ development ability, technical knowledge to prospective employer.
 - **Introduce my knowledge, experience, and level of proficiency in my
   skills.**
 
-- **Used Grid on the skills table.**
+- **Used `Grid` on the skills table.**
 
 - [**https://t1a2-portfolio.web.app/components/skill/skill.html**](https://t1a2-portfolio.web.app/components/skill/skill.html)
 
@@ -53,11 +53,11 @@ development ability, technical knowledge to prospective employer.
 
 - [**https://t1a2-portfolio.web.app/components/project/project.html**](https://t1a2-portfolio.web.app/components/project/project.html)
 
-**All implemented Responsive layout.**
+**All implemented `Responsive layout`.**
 
-**Be able to download my Resume on the header.**
+**Be able to download my `Resume` on the header.**
 
-**Be able to link to my GitHub, LinkedIn on the footer.**
+**Be able to link to my `GitHub`, `LinkedIn` on the footer.**
 
 ### Presentation Clip on YouTube
 
