@@ -10,7 +10,6 @@
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #351B38;
-  /* height: 100vh; */
   max-height: 200vh;
   height: auto;
 }
