@@ -59,78 +59,69 @@ development ability, technical knowledge to prospective employer.
 
 **Be able to link to my GitHub, LinkedIn on the footer.**
 
-### Presentation Clip on YouTube{.underline}
+### Presentation Clip on YouTube
 
 - <https://youtu.be/RSUXuUMi0AA>
 
-**Sitemap**
+### Sitemap
 
-![](media/sitemap.png){width="7.48125in" height="9.522222222222222in"}
+![](media/sitemap.png)
 
-**Screenshots**
+### Screenshots
 
-[Index.html]{.underline}
+<u>[Index.html]</u>
 
 - laptop
 
-![](media/index_laptop.png){width="4.323593613298338in"
-height="4.079099956255468in"}
+![](media/index_laptop.png)
 
 - mobile \| tablet
 
-![](media/index_mobile.png){width="2.3443285214348206in"
-height="5.4604243219597555in"}
+![](media/index_mobile.png)
 
-[aboutme.html]{.underline}
+<u>[aboutme.html]</u>
 
 - laptop
 
-![](media/aboutme_laptop.png){width="3.9983027121609798in"
-height="4.299669728783902in"}
+![](media/aboutme_laptop.png)
 
 - mobile \| tablet
 
 ![Graphical user interface, application Description automatically
-generated](media/aboutme_mobile.png){width="3.084284776902887in"
-height="5.417912292213473in"}
+generated](media/aboutme_mobile.png)
 
-[skill.html]{.underline}
+<u>[skill.html]</u>
 
 - laptop
 
 ![Graphical user interface, website Description automatically
-generated](media/skill_laptop.png){width="3.0909503499562554in"
-height="3.7425371828521437in"}
+generated](media/skill_laptop.png)
 
 - mobile \| tablet
 
 ![Graphical user interface Description automatically
-generated](media/skill_mobile.png){width="2.7335640857392827in"
-height="6.026246719160105in"}
+generated](media/skill_mobile.png)
 
-[project.html]{.underline}
+<u>[project.html]</u>
 
 - laptop
 
 ![Graphical user interface Description automatically generated with
 medium confidence](media/project_laptop.png){width="4.222941819772529in"
-height="3.947761373578303in"}![](media/project_laptop2.png){width="4.280098425196851in"
-height="3.7912489063867016in"}
+height="3.947761373578303in"}![](media/project_laptop2.png)
 
-![](media/project_laptop3.png){width="4.096474190726159in"
-height="2.2897976815398073in"}
+![](media/project_laptop3.png)
 
 - mobile \| tablet
 
-![](media/project_mobile.png){width="2.56832895888014in"
-height="7.546571522309711in"}
+![](media/project_mobile.png)
 
-**Target Audience**
+### Target Audience
 
 **This portfolio is for a potential employer to consider if my
 qualification is enough or not.**
 
-**Tech Stack**
+### Tech Stack
 
 HTML, CSS
 
