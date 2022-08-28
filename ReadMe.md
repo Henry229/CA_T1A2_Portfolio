@@ -1,19 +1,17 @@
-**ReadMe**
+# ReadMe
 
 Portfolio URL <https://t1a2-portfolio.web.app/>
 
 <https://github.com/Henry229/CA_T1A2_Portfolio>
 
-**Portfolio**
+## Portfolio
 
-**Purpose**
-
--
+### Purpose{.underline}
 
 Reflect the knowledge and experience learned in class and show my
 development ability, technical knowledge to prospective employer.
 
-**Functionality / Features**
+### Functionality / Features{.underline}
 
 **Index.html**
 
@@ -61,13 +59,13 @@ development ability, technical knowledge to prospective employer.
 
 **Be able to link to my GitHub, LinkedIn on the footer.**
 
-**Presentation Clip on YouTube**
+### Presentation Clip on YouTube{.underline}
 
-<https://youtu.be/RSUXuUMi0AA>
+- <https://youtu.be/RSUXuUMi0AA>
 
 **Sitemap**
 
-![](media/image1.png){width="7.48125in" height="9.522222222222222in"}
+![](media/sitemap.png){width="7.48125in" height="9.522222222222222in"}
 
 **Screenshots**
 
@@ -75,25 +73,25 @@ development ability, technical knowledge to prospective employer.
 
 - laptop
 
-![](media/image2.png){width="4.323593613298338in"
+![](media/index_laptop.png){width="4.323593613298338in"
 height="4.079099956255468in"}
 
 - mobile \| tablet
 
-![](media/image3.png){width="2.3443285214348206in"
+![](media/index_mobile.png){width="2.3443285214348206in"
 height="5.4604243219597555in"}
 
 [aboutme.html]{.underline}
 
 - laptop
 
-![](media/image4.png){width="3.9983027121609798in"
+![](media/aboutme_laptop.png){width="3.9983027121609798in"
 height="4.299669728783902in"}
 
 - mobile \| tablet
 
 ![Graphical user interface, application Description automatically
-generated](media/image5.png){width="3.084284776902887in"
+generated](media/aboutme_mobile.png){width="3.084284776902887in"
 height="5.417912292213473in"}
 
 [skill.html]{.underline}
@@ -101,13 +99,13 @@ height="5.417912292213473in"}
 - laptop
 
 ![Graphical user interface, website Description automatically
-generated](media/image6.png){width="3.0909503499562554in"
+generated](media/skill_laptop.png){width="3.0909503499562554in"
 height="3.7425371828521437in"}
 
 - mobile \| tablet
 
 ![Graphical user interface Description automatically
-generated](media/image7.png){width="2.7335640857392827in"
+generated](media/skill_mobile.png){width="2.7335640857392827in"
 height="6.026246719160105in"}
 
 [project.html]{.underline}
@@ -115,16 +113,16 @@ height="6.026246719160105in"}
 - laptop
 
 ![Graphical user interface Description automatically generated with
-medium confidence](media/image8.png){width="4.222941819772529in"
-height="3.947761373578303in"}![](media/image9.png){width="4.280098425196851in"
+medium confidence](media/project_laptop.png){width="4.222941819772529in"
+height="3.947761373578303in"}![](media/project_laptop2.png){width="4.280098425196851in"
 height="3.7912489063867016in"}
 
-![](media/image10.png){width="4.096474190726159in"
+![](media/project_laptop3.png){width="4.096474190726159in"
 height="2.2897976815398073in"}
 
 - mobile \| tablet
 
-![](media/image11.png){width="2.56832895888014in"
+![](media/project_mobile.png){width="2.56832895888014in"
 height="7.546571522309711in"}
 
 **Target Audience**
