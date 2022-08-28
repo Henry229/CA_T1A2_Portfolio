@@ -107,9 +107,8 @@ generated](media/skill_mobile.png)
 - laptop
 
 ![Graphical user interface Description automatically generated with
-medium confidence](media/project_laptop.png){width="4.222941819772529in"
-height="3.947761373578303in"}![](media/project_laptop2.png)
-
+medium confidence](media/project_laptop.png)
+![](media/project_laptop2.png)
 ![](media/project_laptop3.png)
 
 - mobile \| tablet
